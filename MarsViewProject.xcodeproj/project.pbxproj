@@ -7,15 +7,45 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		310826462C85496300DE7E79 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 310826452C85496300DE7E79 /* HomeViewController.swift */; };
+		3108264A2C8549AB00DE7E79 /* HomeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 310826482C8549AB00DE7E79 /* HomeCell.swift */; };
+		3108264B2C8549AB00DE7E79 /* HomeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 310826492C8549AB00DE7E79 /* HomeCell.xib */; };
+		3108264F2C854A1600DE7E79 /* HistoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3108264D2C854A1600DE7E79 /* HistoryCell.swift */; };
+		310826502C854A1600DE7E79 /* HistoryCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3108264E2C854A1600DE7E79 /* HistoryCell.xib */; };
+		310826532C854AC100DE7E79 /* FilterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 310826522C854AC100DE7E79 /* FilterViewController.swift */; };
+		310826562C854AF600DE7E79 /* DateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 310826552C854AF600DE7E79 /* DateViewController.swift */; };
+		310826592C854B2D00DE7E79 /* ViewRoverPhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 310826582C854B2D00DE7E79 /* ViewRoverPhotoViewController.swift */; };
+		3108265D2C854B7000DE7E79 /* ViewCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3108265B2C854B7000DE7E79 /* ViewCollectionCell.swift */; };
+		3108265E2C854B7000DE7E79 /* ViewCollectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3108265C2C854B7000DE7E79 /* ViewCollectionCell.xib */; };
+		310826612C854BD200DE7E79 /* SaveFiltersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 310826602C854BD200DE7E79 /* SaveFiltersViewController.swift */; };
+		310826642C854C0000DE7E79 /* MenuCardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 310826632C854C0000DE7E79 /* MenuCardViewController.swift */; };
+		310826672C854C4200DE7E79 /* FilterSelectionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 310826662C854C4200DE7E79 /* FilterSelectionDelegate.swift */; };
+		310826692C854C5F00DE7E79 /* HistoryViewControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 310826682C854C5F00DE7E79 /* HistoryViewControllerDelegate.swift */; };
+		3108266B2C854C7B00DE7E79 /* MenuCardViewControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3108266A2C854C7B00DE7E79 /* MenuCardViewControllerDelegate.swift */; };
+		3108266D2C854C9D00DE7E79 /* HomeCellDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3108266C2C854C9D00DE7E79 /* HomeCellDelegate.swift */; };
+		310826702C854CCB00DE7E79 /* CoreDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3108266F2C854CCB00DE7E79 /* CoreDataService.swift */; };
+		310826722C854CE700DE7E79 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 310826712C854CE700DE7E79 /* NetworkService.swift */; };
+		310826742C854D0600DE7E79 /* ImageCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 310826732C854D0600DE7E79 /* ImageCache.swift */; };
+		310826772C854D3200DE7E79 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 310826762C854D3200DE7E79 /* HomeViewModel.swift */; };
+		3108267A2C854D5F00DE7E79 /* Photo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 310826792C854D5F00DE7E79 /* Photo.swift */; };
+		3108267C2C854D7800DE7E79 /* PhotosResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3108267B2C854D7800DE7E79 /* PhotosResponse.swift */; };
+		3108267E2C854D8E00DE7E79 /* RoversResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3108267D2C854D8E00DE7E79 /* RoversResponse.swift */; };
+		310826802C854DA500DE7E79 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3108267F2C854DA500DE7E79 /* Model.swift */; };
+		310826822C854DC200DE7E79 /* PhotoCamera.swift in Sources */ = {isa = PBXBuildFile; fileRef = 310826812C854DC200DE7E79 /* PhotoCamera.swift */; };
+		310826842C854DDB00DE7E79 /* Rover.swift in Sources */ = {isa = PBXBuildFile; fileRef = 310826832C854DDB00DE7E79 /* Rover.swift */; };
+		310826862C854DF300DE7E79 /* CameraElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 310826852C854DF300DE7E79 /* CameraElement.swift */; };
+		310826882C854EB100DE7E79 /* HistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 310826872C854EB100DE7E79 /* HistoryViewController.swift */; };
 		31B13F4B2C854620009EB449 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31B13F4A2C854620009EB449 /* AppDelegate.swift */; };
 		31B13F4D2C854620009EB449 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31B13F4C2C854620009EB449 /* SceneDelegate.swift */; };
-		31B13F4F2C854620009EB449 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31B13F4E2C854620009EB449 /* ViewController.swift */; };
 		31B13F522C854620009EB449 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 31B13F512C854620009EB449 /* Base */; };
 		31B13F542C854623009EB449 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 31B13F532C854623009EB449 /* Assets.xcassets */; };
 		31B13F572C854623009EB449 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 31B13F562C854623009EB449 /* Base */; };
 		31B13F622C854624009EB449 /* MarsViewProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31B13F612C854624009EB449 /* MarsViewProjectTests.swift */; };
 		31B13F6C2C854624009EB449 /* MarsViewProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31B13F6B2C854624009EB449 /* MarsViewProjectUITests.swift */; };
 		31B13F6E2C854624009EB449 /* MarsViewProjectUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31B13F6D2C854624009EB449 /* MarsViewProjectUITestsLaunchTests.swift */; };
+		31B13F7C2C85465E009EB449 /* FiltersModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 31B13F7A2C85465E009EB449 /* FiltersModel.xcdatamodeld */; };
+		31B13F7F2C8546F3009EB449 /* FiltersMode+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31B13F7D2C8546F3009EB449 /* FiltersMode+CoreDataClass.swift */; };
+		31B13F802C8546F3009EB449 /* FiltersMode+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31B13F7E2C8546F3009EB449 /* FiltersMode+CoreDataProperties.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,10 +66,38 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		310826452C85496300DE7E79 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		310826482C8549AB00DE7E79 /* HomeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCell.swift; sourceTree = "<group>"; };
+		310826492C8549AB00DE7E79 /* HomeCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeCell.xib; sourceTree = "<group>"; };
+		3108264D2C854A1600DE7E79 /* HistoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryCell.swift; sourceTree = "<group>"; };
+		3108264E2C854A1600DE7E79 /* HistoryCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HistoryCell.xib; sourceTree = "<group>"; };
+		310826522C854AC100DE7E79 /* FilterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterViewController.swift; sourceTree = "<group>"; };
+		310826552C854AF600DE7E79 /* DateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateViewController.swift; sourceTree = "<group>"; };
+		310826582C854B2D00DE7E79 /* ViewRoverPhotoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewRoverPhotoViewController.swift; sourceTree = "<group>"; };
+		3108265B2C854B7000DE7E79 /* ViewCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewCollectionCell.swift; sourceTree = "<group>"; };
+		3108265C2C854B7000DE7E79 /* ViewCollectionCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ViewCollectionCell.xib; sourceTree = "<group>"; };
+		310826602C854BD200DE7E79 /* SaveFiltersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaveFiltersViewController.swift; sourceTree = "<group>"; };
+		310826632C854C0000DE7E79 /* MenuCardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuCardViewController.swift; sourceTree = "<group>"; };
+		310826662C854C4200DE7E79 /* FilterSelectionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterSelectionDelegate.swift; sourceTree = "<group>"; };
+		310826682C854C5F00DE7E79 /* HistoryViewControllerDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryViewControllerDelegate.swift; sourceTree = "<group>"; };
+		3108266A2C854C7B00DE7E79 /* MenuCardViewControllerDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuCardViewControllerDelegate.swift; sourceTree = "<group>"; };
+		3108266C2C854C9D00DE7E79 /* HomeCellDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCellDelegate.swift; sourceTree = "<group>"; };
+		3108266F2C854CCB00DE7E79 /* CoreDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataService.swift; sourceTree = "<group>"; };
+		310826712C854CE700DE7E79 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		310826732C854D0600DE7E79 /* ImageCache.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCache.swift; sourceTree = "<group>"; };
+		310826762C854D3200DE7E79 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		310826792C854D5F00DE7E79 /* Photo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Photo.swift; sourceTree = "<group>"; };
+		3108267B2C854D7800DE7E79 /* PhotosResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosResponse.swift; sourceTree = "<group>"; };
+		3108267D2C854D8E00DE7E79 /* RoversResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoversResponse.swift; sourceTree = "<group>"; };
+		3108267F2C854DA500DE7E79 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		310826812C854DC200DE7E79 /* PhotoCamera.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCamera.swift; sourceTree = "<group>"; };
+		310826832C854DDB00DE7E79 /* Rover.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rover.swift; sourceTree = "<group>"; };
+		310826852C854DF300DE7E79 /* CameraElement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraElement.swift; sourceTree = "<group>"; };
+		310826872C854EB100DE7E79 /* HistoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryViewController.swift; sourceTree = "<group>"; };
+		319352B32C85486400469869 /* FiltersModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FiltersModel.xcdatamodel; sourceTree = "<group>"; };
 		31B13F472C854620009EB449 /* MarsViewProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MarsViewProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		31B13F4A2C854620009EB449 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		31B13F4C2C854620009EB449 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		31B13F4E2C854620009EB449 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		31B13F512C854620009EB449 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		31B13F532C854623009EB449 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		31B13F562C854623009EB449 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +107,9 @@
 		31B13F672C854624009EB449 /* MarsViewProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MarsViewProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		31B13F6B2C854624009EB449 /* MarsViewProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarsViewProjectUITests.swift; sourceTree = "<group>"; };
 		31B13F6D2C854624009EB449 /* MarsViewProjectUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarsViewProjectUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		31B13F7B2C85465E009EB449 /* FiltersModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FiltersModel.xcdatamodel; sourceTree = "<group>"; };
+		31B13F7D2C8546F3009EB449 /* FiltersMode+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "FiltersMode+CoreDataClass.swift"; path = "MarsViewProject/DataBase/FiltersMode+CoreDataClass.swift"; sourceTree = SOURCE_ROOT; };
+		31B13F7E2C8546F3009EB449 /* FiltersMode+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "FiltersMode+CoreDataProperties.swift"; path = "MarsViewProject/DataBase/FiltersMode+CoreDataProperties.swift"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +137,149 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		310826432C85493800DE7E79 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				310826622C854BED00DE7E79 /* MenuCardViewController */,
+				3108265F2C854BBA00DE7E79 /* SaveFiltersViewController */,
+				310826572C854B1B00DE7E79 /* ViewRoverPhotoViewController */,
+				310826542C854ADF00DE7E79 /* DateViewController */,
+				310826512C854AAA00DE7E79 /* FilterViewController */,
+				3108264C2C8549FA00DE7E79 /* HistoryViewController */,
+				310826442C85494200DE7E79 /* HomeViewController */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		310826442C85494200DE7E79 /* HomeViewController */ = {
+			isa = PBXGroup;
+			children = (
+				310826472C85497D00DE7E79 /* Cells */,
+				310826452C85496300DE7E79 /* HomeViewController.swift */,
+			);
+			path = HomeViewController;
+			sourceTree = "<group>";
+		};
+		310826472C85497D00DE7E79 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				310826482C8549AB00DE7E79 /* HomeCell.swift */,
+				310826492C8549AB00DE7E79 /* HomeCell.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		3108264C2C8549FA00DE7E79 /* HistoryViewController */ = {
+			isa = PBXGroup;
+			children = (
+				310826892C854EC000DE7E79 /* Cells */,
+				310826872C854EB100DE7E79 /* HistoryViewController.swift */,
+			);
+			path = HistoryViewController;
+			sourceTree = "<group>";
+		};
+		310826512C854AAA00DE7E79 /* FilterViewController */ = {
+			isa = PBXGroup;
+			children = (
+				310826522C854AC100DE7E79 /* FilterViewController.swift */,
+			);
+			path = FilterViewController;
+			sourceTree = "<group>";
+		};
+		310826542C854ADF00DE7E79 /* DateViewController */ = {
+			isa = PBXGroup;
+			children = (
+				310826552C854AF600DE7E79 /* DateViewController.swift */,
+			);
+			path = DateViewController;
+			sourceTree = "<group>";
+		};
+		310826572C854B1B00DE7E79 /* ViewRoverPhotoViewController */ = {
+			isa = PBXGroup;
+			children = (
+				310826582C854B2D00DE7E79 /* ViewRoverPhotoViewController.swift */,
+				3108265A2C854B4100DE7E79 /* Cells */,
+			);
+			path = ViewRoverPhotoViewController;
+			sourceTree = "<group>";
+		};
+		3108265A2C854B4100DE7E79 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				3108265B2C854B7000DE7E79 /* ViewCollectionCell.swift */,
+				3108265C2C854B7000DE7E79 /* ViewCollectionCell.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		3108265F2C854BBA00DE7E79 /* SaveFiltersViewController */ = {
+			isa = PBXGroup;
+			children = (
+				310826602C854BD200DE7E79 /* SaveFiltersViewController.swift */,
+			);
+			path = SaveFiltersViewController;
+			sourceTree = "<group>";
+		};
+		310826622C854BED00DE7E79 /* MenuCardViewController */ = {
+			isa = PBXGroup;
+			children = (
+				310826632C854C0000DE7E79 /* MenuCardViewController.swift */,
+			);
+			path = MenuCardViewController;
+			sourceTree = "<group>";
+		};
+		310826652C854C2800DE7E79 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				310826662C854C4200DE7E79 /* FilterSelectionDelegate.swift */,
+				310826682C854C5F00DE7E79 /* HistoryViewControllerDelegate.swift */,
+				3108266C2C854C9D00DE7E79 /* HomeCellDelegate.swift */,
+				3108266A2C854C7B00DE7E79 /* MenuCardViewControllerDelegate.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		3108266E2C854CB900DE7E79 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				3108266F2C854CCB00DE7E79 /* CoreDataService.swift */,
+				310826712C854CE700DE7E79 /* NetworkService.swift */,
+				310826732C854D0600DE7E79 /* ImageCache.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		310826752C854D1B00DE7E79 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				310826762C854D3200DE7E79 /* HomeViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		310826782C854D4900DE7E79 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				310826792C854D5F00DE7E79 /* Photo.swift */,
+				3108267F2C854DA500DE7E79 /* Model.swift */,
+				310826852C854DF300DE7E79 /* CameraElement.swift */,
+				310826812C854DC200DE7E79 /* PhotoCamera.swift */,
+				310826832C854DDB00DE7E79 /* Rover.swift */,
+				3108267D2C854D8E00DE7E79 /* RoversResponse.swift */,
+				3108267B2C854D7800DE7E79 /* PhotosResponse.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		310826892C854EC000DE7E79 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				3108264E2C854A1600DE7E79 /* HistoryCell.xib */,
+				3108264D2C854A1600DE7E79 /* HistoryCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
 		31B13F3E2C854620009EB449 = {
 			isa = PBXGroup;
 			children = (
@@ -101,7 +305,13 @@
 			children = (
 				31B13F4A2C854620009EB449 /* AppDelegate.swift */,
 				31B13F4C2C854620009EB449 /* SceneDelegate.swift */,
-				31B13F4E2C854620009EB449 /* ViewController.swift */,
+				310826782C854D4900DE7E79 /* Models */,
+				310826752C854D1B00DE7E79 /* ViewModels */,
+				3108266E2C854CB900DE7E79 /* Services */,
+				310826652C854C2800DE7E79 /* Protocols */,
+				310826432C85493800DE7E79 /* ViewControllers */,
+				31B13F7A2C85465E009EB449 /* FiltersModel.xcdatamodeld */,
+				31B13F812C854702009EB449 /* DataBase */,
 				31B13F502C854620009EB449 /* Main.storyboard */,
 				31B13F532C854623009EB449 /* Assets.xcassets */,
 				31B13F552C854623009EB449 /* LaunchScreen.storyboard */,
@@ -125,6 +335,16 @@
 				31B13F6D2C854624009EB449 /* MarsViewProjectUITestsLaunchTests.swift */,
 			);
 			path = MarsViewProjectUITests;
+			sourceTree = "<group>";
+		};
+		31B13F812C854702009EB449 /* DataBase */ = {
+			isa = PBXGroup;
+			children = (
+				319352B22C85486400469869 /* FiltersModel.xcdatamodeld */,
+				31B13F7D2C8546F3009EB449 /* FiltersMode+CoreDataClass.swift */,
+				31B13F7E2C8546F3009EB449 /* FiltersMode+CoreDataProperties.swift */,
+			);
+			path = DataBase;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,8 +451,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3108265E2C854B7000DE7E79 /* ViewCollectionCell.xib in Resources */,
+				310826502C854A1600DE7E79 /* HistoryCell.xib in Resources */,
 				31B13F542C854623009EB449 /* Assets.xcassets in Resources */,
 				31B13F572C854623009EB449 /* Base in Resources */,
+				3108264B2C8549AB00DE7E79 /* HomeCell.xib in Resources */,
 				31B13F522C854620009EB449 /* Base in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -258,9 +481,36 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				31B13F4F2C854620009EB449 /* ViewController.swift in Sources */,
+				310826562C854AF600DE7E79 /* DateViewController.swift in Sources */,
+				310826772C854D3200DE7E79 /* HomeViewModel.swift in Sources */,
 				31B13F4B2C854620009EB449 /* AppDelegate.swift in Sources */,
+				310826882C854EB100DE7E79 /* HistoryViewController.swift in Sources */,
+				3108267C2C854D7800DE7E79 /* PhotosResponse.swift in Sources */,
+				310826862C854DF300DE7E79 /* CameraElement.swift in Sources */,
+				310826672C854C4200DE7E79 /* FilterSelectionDelegate.swift in Sources */,
+				3108265D2C854B7000DE7E79 /* ViewCollectionCell.swift in Sources */,
+				3108264A2C8549AB00DE7E79 /* HomeCell.swift in Sources */,
+				3108266D2C854C9D00DE7E79 /* HomeCellDelegate.swift in Sources */,
+				31B13F7F2C8546F3009EB449 /* FiltersMode+CoreDataClass.swift in Sources */,
+				310826532C854AC100DE7E79 /* FilterViewController.swift in Sources */,
+				31B13F802C8546F3009EB449 /* FiltersMode+CoreDataProperties.swift in Sources */,
+				310826642C854C0000DE7E79 /* MenuCardViewController.swift in Sources */,
+				310826722C854CE700DE7E79 /* NetworkService.swift in Sources */,
+				3108266B2C854C7B00DE7E79 /* MenuCardViewControllerDelegate.swift in Sources */,
+				310826742C854D0600DE7E79 /* ImageCache.swift in Sources */,
 				31B13F4D2C854620009EB449 /* SceneDelegate.swift in Sources */,
+				310826692C854C5F00DE7E79 /* HistoryViewControllerDelegate.swift in Sources */,
+				3108267A2C854D5F00DE7E79 /* Photo.swift in Sources */,
+				310826702C854CCB00DE7E79 /* CoreDataService.swift in Sources */,
+				310826802C854DA500DE7E79 /* Model.swift in Sources */,
+				310826842C854DDB00DE7E79 /* Rover.swift in Sources */,
+				31B13F7C2C85465E009EB449 /* FiltersModel.xcdatamodeld in Sources */,
+				3108264F2C854A1600DE7E79 /* HistoryCell.swift in Sources */,
+				310826822C854DC200DE7E79 /* PhotoCamera.swift in Sources */,
+				3108267E2C854D8E00DE7E79 /* RoversResponse.swift in Sources */,
+				310826592C854B2D00DE7E79 /* ViewRoverPhotoViewController.swift in Sources */,
+				310826612C854BD200DE7E79 /* SaveFiltersViewController.swift in Sources */,
+				310826462C85496300DE7E79 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -601,6 +851,31 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		319352B22C85486400469869 /* FiltersModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				319352B32C85486400469869 /* FiltersModel.xcdatamodel */,
+			);
+			currentVersion = 319352B32C85486400469869 /* FiltersModel.xcdatamodel */;
+			name = FiltersModel.xcdatamodeld;
+			path = /Users/alinalosakova/Documents/Swift/MarsView/MarsViewProject/MarsViewProject/DataBase/FiltersModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+		31B13F7A2C85465E009EB449 /* FiltersModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				31B13F7B2C85465E009EB449 /* FiltersModel.xcdatamodel */,
+			);
+			currentVersion = 31B13F7B2C85465E009EB449 /* FiltersModel.xcdatamodel */;
+			name = FiltersModel.xcdatamodeld;
+			path = /Users/alinalosakova/Downloads/FiltersModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 31B13F3F2C854620009EB449 /* Project object */;
 }
