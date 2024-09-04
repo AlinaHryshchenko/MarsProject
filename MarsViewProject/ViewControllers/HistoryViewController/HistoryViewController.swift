@@ -9,7 +9,7 @@ class HistoryViewController: UIViewController {
     
     var coreDataService = CoreDataService()
     
-    var filters: [FiltersMode] = []
+    var filters: [MarsViewFilters] = []
     private let viewModel = HomeViewModel()
     
     weak var delegate: HistoryViewControllerDelegate?
@@ -103,8 +103,8 @@ extension HistoryViewController: UITableViewDelegate, UITableViewDataSource {
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = historyTableView.dequeueReusableCell(withIdentifier: "HistoryCell", for: indexPath) as! HistoryCell
         let filter = filters[indexPath.row]
-        cell.roverTextLabel.text = filter.roverName
-        cell.cameraTextLabel.text = filter.cameraName
+        cell.roverTextLabel.text = filter.nameRover
+        cell.cameraTextLabel.text = filter.nameCamera
         if let date = filter.selectedDate {
             let dateFormatter = DateFormatter()
             dateFormatter.dateStyle = .medium

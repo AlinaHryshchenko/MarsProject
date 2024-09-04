@@ -3,6 +3,6 @@
 import Foundation
 protocol HistoryViewControllerDelegate: AnyObject {
     
-    func historyViewController(_ controller: MenuCardViewController, didSelectFilter filter: FiltersMode)
+    func historyViewController(_ controller: MenuCardViewController, didSelectFilter filter: MarsViewFilters)
 
 }

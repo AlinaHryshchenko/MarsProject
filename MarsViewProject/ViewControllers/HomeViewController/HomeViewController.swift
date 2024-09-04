@@ -38,7 +38,7 @@ class HomeViewController: UIViewController, FilterSelectionDelegate, HistoryView
     
     private let viewModel = HomeViewModel()
     private let roundView = UIView()
-    var selectedFilter: FiltersMode?
+    var selectedFilter: MarsViewFilters?
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -157,11 +157,11 @@ class HomeViewController: UIViewController, FilterSelectionDelegate, HistoryView
             }
             
             viewModel.selectedDate = selectedFilter.selectedDate
-            viewModel.selectedRover = selectedFilter.roverName
-            viewModel.selectedCamera = selectedFilter.cameraName
+            viewModel.selectedRover = selectedFilter.nameRover
+            viewModel.selectedCamera = selectedFilter.nameCamera
             
-            roverFilterLabel.text = selectedFilter.roverName
-            cameraFilterLabel.text = selectedFilter.cameraName
+            roverFilterLabel.text = selectedFilter.nameRover
+            cameraFilterLabel.text = selectedFilter.nameCamera
             
             didSelectDate(filtersDate)
             
@@ -241,9 +241,9 @@ class HomeViewController: UIViewController, FilterSelectionDelegate, HistoryView
         }
     }
     
-    func historyViewController(_ controller: MenuCardViewController, didSelectFilter filter: FiltersMode) {
-        viewModel.selectedRover = filter.roverName
-        viewModel.selectedCamera = filter.cameraName
+    func historyViewController(_ controller: MenuCardViewController, didSelectFilter filter: MarsViewFilters) {
+        viewModel.selectedRover = filter.nameRover
+        viewModel.selectedCamera = filter.nameCamera
         viewModel.selectedDate = filter.selectedDate
     
         updateFiltersUI()
@@ -288,9 +288,9 @@ class HomeViewController: UIViewController, FilterSelectionDelegate, HistoryView
         guard let appDelegate = UIApplication.shared.delegate as? AppDelegate else { return }
         let context = appDelegate.persistentContainer.viewContext
         
-        let newFilter = FiltersMode(context: context)
-        newFilter.roverName = viewModel.selectedRover ?? "All"
-        newFilter.cameraName = viewModel.selectedCamera ?? "All"
+        let newFilter = MarsViewFilters(context: context)
+        newFilter.nameRover = viewModel.selectedRover ?? "All"
+        newFilter.nameCamera = viewModel.selectedCamera ?? "All"
         newFilter.selectedDate = viewModel.selectedDate ?? Date()
         
         do {

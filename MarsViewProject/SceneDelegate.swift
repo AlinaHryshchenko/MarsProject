@@ -1,9 +1,4 @@
-//
-//  SceneDelegate.swift
-//  MarsViewProject
-//
-//  Created by Алина Лошакова on 02.09.2024.
-//
+
 
 import UIKit
 

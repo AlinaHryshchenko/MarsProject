@@ -4,11 +4,11 @@ import CoreData
 import UIKit
 
 final class CoreDataService {
-    func fetchFilters(completion: @escaping (Result<[FiltersMode], Error>) -> Void) {
+    func fetchFilters(completion: @escaping (Result<[MarsViewFilters], Error>) -> Void) {
         guard let appDelegate = UIApplication.shared.delegate as? AppDelegate else { return }
         
         let context = appDelegate.persistentContainer.viewContext
-        let fetchRequest: NSFetchRequest<FiltersMode> = FiltersMode.fetchRequest()
+        let fetchRequest: NSFetchRequest<MarsViewFilters> = MarsViewFilters.fetchRequest()
         
         do {
             let filters = try context.fetch(fetchRequest)

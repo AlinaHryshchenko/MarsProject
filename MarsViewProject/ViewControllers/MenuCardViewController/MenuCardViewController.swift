@@ -9,7 +9,7 @@ class MenuCardViewController: UIViewController {
     @IBOutlet weak var cancelButton: UIButton!
     @IBOutlet weak var deleteButton: UIButton!
     
-    var selectedFilter: FiltersMode?
+    var selectedFilter: MarsViewFilters?
     weak var delegate: HistoryViewControllerDelegate?
     var onDeleteFilter: (() -> Void)?
     

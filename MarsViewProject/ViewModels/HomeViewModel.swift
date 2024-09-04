@@ -11,7 +11,7 @@ final class HomeViewModel {
     var selectedDate: Date?
     var photos: [Photo] = []
     
-    var filters: [FiltersMode] = []
+    var filters: [MarsViewFilters] = []
     var allData: [Photo] = []
     var filteredData: [Photo] = []
     

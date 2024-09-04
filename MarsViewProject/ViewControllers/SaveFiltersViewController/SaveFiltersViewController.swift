@@ -36,9 +36,9 @@ class SaveFiltersViewController: UIViewController {
             let cameraName = viewModel.selectedCamera ?? "All"
             let selectedDate = viewModel.selectedDate ?? Date()
             
-            let newFilter = FiltersMode(context: context)
-            newFilter.roverName = roverName
-            newFilter.cameraName = cameraName
+            let newFilter = MarsViewFilters(context: context)
+        newFilter.nameRover = roverName
+        newFilter.nameCamera = cameraName
             newFilter.selectedDate = selectedDate
             
             do {
