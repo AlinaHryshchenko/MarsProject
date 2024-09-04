@@ -35,6 +35,7 @@
 		310826842C854DDB00DE7E79 /* Rover.swift in Sources */ = {isa = PBXBuildFile; fileRef = 310826832C854DDB00DE7E79 /* Rover.swift */; };
 		310826862C854DF300DE7E79 /* CameraElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 310826852C854DF300DE7E79 /* CameraElement.swift */; };
 		310826882C854EB100DE7E79 /* HistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 310826872C854EB100DE7E79 /* HistoryViewController.swift */; };
+		318A04302C884936002FD89E /* FiltersModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 318A042E2C884936002FD89E /* FiltersModel.xcdatamodeld */; };
 		31B13F4B2C854620009EB449 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31B13F4A2C854620009EB449 /* AppDelegate.swift */; };
 		31B13F4D2C854620009EB449 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31B13F4C2C854620009EB449 /* SceneDelegate.swift */; };
 		31B13F522C854620009EB449 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 31B13F512C854620009EB449 /* Base */; };
@@ -43,7 +44,6 @@
 		31B13F622C854624009EB449 /* MarsViewProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31B13F612C854624009EB449 /* MarsViewProjectTests.swift */; };
 		31B13F6C2C854624009EB449 /* MarsViewProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31B13F6B2C854624009EB449 /* MarsViewProjectUITests.swift */; };
 		31B13F6E2C854624009EB449 /* MarsViewProjectUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31B13F6D2C854624009EB449 /* MarsViewProjectUITestsLaunchTests.swift */; };
-		31B13F7C2C85465E009EB449 /* FiltersModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 31B13F7A2C85465E009EB449 /* FiltersModel.xcdatamodeld */; };
 		31B13F7F2C8546F3009EB449 /* FiltersMode+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31B13F7D2C8546F3009EB449 /* FiltersMode+CoreDataClass.swift */; };
 		31B13F802C8546F3009EB449 /* FiltersMode+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31B13F7E2C8546F3009EB449 /* FiltersMode+CoreDataProperties.swift */; };
 /* End PBXBuildFile section */
@@ -94,7 +94,7 @@
 		310826832C854DDB00DE7E79 /* Rover.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rover.swift; sourceTree = "<group>"; };
 		310826852C854DF300DE7E79 /* CameraElement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraElement.swift; sourceTree = "<group>"; };
 		310826872C854EB100DE7E79 /* HistoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryViewController.swift; sourceTree = "<group>"; };
-		319352B32C85486400469869 /* FiltersModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FiltersModel.xcdatamodel; sourceTree = "<group>"; };
+		318A042F2C884936002FD89E /* FiltersModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FiltersModel.xcdatamodel; sourceTree = "<group>"; };
 		31B13F472C854620009EB449 /* MarsViewProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MarsViewProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		31B13F4A2C854620009EB449 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		31B13F4C2C854620009EB449 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -107,7 +107,6 @@
 		31B13F672C854624009EB449 /* MarsViewProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MarsViewProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		31B13F6B2C854624009EB449 /* MarsViewProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarsViewProjectUITests.swift; sourceTree = "<group>"; };
 		31B13F6D2C854624009EB449 /* MarsViewProjectUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarsViewProjectUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		31B13F7B2C85465E009EB449 /* FiltersModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FiltersModel.xcdatamodel; sourceTree = "<group>"; };
 		31B13F7D2C8546F3009EB449 /* FiltersMode+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "FiltersMode+CoreDataClass.swift"; path = "MarsViewProject/DataBase/FiltersMode+CoreDataClass.swift"; sourceTree = SOURCE_ROOT; };
 		31B13F7E2C8546F3009EB449 /* FiltersMode+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "FiltersMode+CoreDataProperties.swift"; path = "MarsViewProject/DataBase/FiltersMode+CoreDataProperties.swift"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
@@ -310,7 +309,6 @@
 				3108266E2C854CB900DE7E79 /* Services */,
 				310826652C854C2800DE7E79 /* Protocols */,
 				310826432C85493800DE7E79 /* ViewControllers */,
-				31B13F7A2C85465E009EB449 /* FiltersModel.xcdatamodeld */,
 				31B13F812C854702009EB449 /* DataBase */,
 				31B13F502C854620009EB449 /* Main.storyboard */,
 				31B13F532C854623009EB449 /* Assets.xcassets */,
@@ -340,7 +338,7 @@
 		31B13F812C854702009EB449 /* DataBase */ = {
 			isa = PBXGroup;
 			children = (
-				319352B22C85486400469869 /* FiltersModel.xcdatamodeld */,
+				318A042E2C884936002FD89E /* FiltersModel.xcdatamodeld */,
 				31B13F7D2C8546F3009EB449 /* FiltersMode+CoreDataClass.swift */,
 				31B13F7E2C8546F3009EB449 /* FiltersMode+CoreDataProperties.swift */,
 			);
@@ -502,9 +500,9 @@
 				310826692C854C5F00DE7E79 /* HistoryViewControllerDelegate.swift in Sources */,
 				3108267A2C854D5F00DE7E79 /* Photo.swift in Sources */,
 				310826702C854CCB00DE7E79 /* CoreDataService.swift in Sources */,
+				318A04302C884936002FD89E /* FiltersModel.xcdatamodeld in Sources */,
 				310826802C854DA500DE7E79 /* Model.swift in Sources */,
 				310826842C854DDB00DE7E79 /* Rover.swift in Sources */,
-				31B13F7C2C85465E009EB449 /* FiltersModel.xcdatamodeld in Sources */,
 				3108264F2C854A1600DE7E79 /* HistoryCell.swift in Sources */,
 				310826822C854DC200DE7E79 /* PhotoCamera.swift in Sources */,
 				3108267E2C854D8E00DE7E79 /* RoversResponse.swift in Sources */,
@@ -853,25 +851,14 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		319352B22C85486400469869 /* FiltersModel.xcdatamodeld */ = {
+		318A042E2C884936002FD89E /* FiltersModel.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				319352B32C85486400469869 /* FiltersModel.xcdatamodel */,
+				318A042F2C884936002FD89E /* FiltersModel.xcdatamodel */,
 			);
-			currentVersion = 319352B32C85486400469869 /* FiltersModel.xcdatamodel */;
+			currentVersion = 318A042F2C884936002FD89E /* FiltersModel.xcdatamodel */;
 			name = FiltersModel.xcdatamodeld;
-			path = /Users/alinalosakova/Documents/Swift/MarsView/MarsViewProject/MarsViewProject/DataBase/FiltersModel.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-		31B13F7A2C85465E009EB449 /* FiltersModel.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				31B13F7B2C85465E009EB449 /* FiltersModel.xcdatamodel */,
-			);
-			currentVersion = 31B13F7B2C85465E009EB449 /* FiltersModel.xcdatamodel */;
-			name = FiltersModel.xcdatamodeld;
-			path = /Users/alinalosakova/Downloads/FiltersModel.xcdatamodeld;
+			path = /Users/alinalosakova/Desktop/FiltersModel.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
